@@ -112,7 +112,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        
+
+
+          <h1 className="App-title">My Goal For Today</h1>
+
+
         <div className="container">
           {
             this.state.notification &&
@@ -131,7 +135,7 @@ class App extends Component {
           <button
             onClick={this.state.editing ? this.updateTodo : this.addTodo}
             className="btn-success mb-3 form-control"
-            disabled={this.state.newTodo.length < 5}
+            disabled={this.state.newTodo.length < 3}
           >
             {this.state.editing ? 'Update todo' : 'Add todo'}
           </button>
