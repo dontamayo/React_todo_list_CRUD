@@ -1,7 +1,7 @@
 # TODO APP
 ## https://mygoal.netlify.com/
 
-<img src='./public/todo.png' height='200' width='200px' alt='todo logo' />
+<img src='./public/todo.png' height='350' width='375px' alt='todo logo' />
 ## CRUD practice
 
 ### create, read, update, delete
